@@ -1,0 +1,24 @@
+@import '../base/variables';
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0 0 70px; // bottom = footer height
+}
+
+.footer {
+  background-color: $background-color;
+  bottom: 0;
+  color: $font-color;
+  font-size: 12px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  margin-top: 15px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+@import '../base/variables';
+
+.movie-list {
+  text-align: center;
+}
+
+.loading {
+  color: $font-color;
+}
+
+.dialog-img {
+  float: left;
+  width: 45%;
+}
+
+.genres-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.dialog-content {
+  color: $font-color;
+  float: right;
+  padding: 0 10px;
+  width: 48%;
+
+  h2 {
+    margin: 0 0 10px;
+  }
+}

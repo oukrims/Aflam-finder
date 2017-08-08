@@ -1,0 +1,18 @@
+@import '../base/variables';
+
+body {
+  background-color: $body-background-color;
+  font-family: $paragraph-font-stack;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: $background-color;
+  color: $font-color;
+  font-family: $header-font-stack;
+  padding: 5px;
+  text-align: center;
+}

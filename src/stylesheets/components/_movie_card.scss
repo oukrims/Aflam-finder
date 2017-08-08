@@ -1,0 +1,13 @@
+@import '../base/variables';
+
+.movie-card {
+  display: inline-block;
+  margin: 10px;
+  width: 250px;
+}
+.movie-card:hover {
+  display: inline-block;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 4px 4px 8px #111;
+}
